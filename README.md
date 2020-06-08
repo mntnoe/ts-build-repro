@@ -1,5 +1,7 @@
 Reproduces a TS 3.8+ issue where new files in watched directories are not registered as belonging to a composite project.
 
+See https://github.com/microsoft/TypeScript/issues/38976.
+
 The `build-watch.js` file shows the scenario where a composite project is compiled with the solution builder.
 
 - `npm install`
